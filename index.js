@@ -1,3 +1,8 @@
+// const jsdom = require("jsdom");
+// const { JSDOM } = jsdom;
+
+// const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
+// const document = dom.window.document;
 const userTab = document.querySelector("[data-userWeather]");
 const searchTab = document.querySelector("[data-searchWeather]");
 const userContainer = document.querySelector(".weather-container");
@@ -8,6 +13,7 @@ const loadingScreen = document.querySelector(".loading-container");
 const userInfoContainer = document.querySelector(".user-info-container");
 
 //initially vairables need????
+// const dotenv = require('dotenv')
 
 let oldTab = userTab;
 const API_KEY = "a91e2d5e5765fb4a6786e047bdb707e3";
